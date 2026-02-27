@@ -5,25 +5,26 @@ while (i <= 10) {
   i++;
 }
 
-for (let i = 2; i <= 20; i++) {
-  if (i % 2 !== 0) {
+for (let r = 2; r <= 20; r++) {
+  if (r % 2 !== 0) {
     continue;
   }
-  console.log(i);
+  console.log(r);
 }
 
-for (let i = 1; i <= 10; i++) {
-  console.log(`7 x ${i} = ${7 * i}`);
+for (let x = 1; x <= 10; x++) {
+  console.log(`7 x ${x} = ${7 * x}`);
 }
 
 let n = 10;
 
-for (let i = 1; ; i++) {
-  if (i >= n) {
+for (let r = 1; ; r++) {
+  if (r >= n) {
     break;
   }
-  console.log(i);
+  console.log(r);
 }
+
 
 let j = 0;
 
